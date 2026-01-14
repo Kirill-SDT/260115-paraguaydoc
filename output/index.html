@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Прозрачная иммиграционная помощь в Парагвае для русскоязычных семей и предпринимателей. Честные сроки, реальные цены, без обмана.">
+    <title>ParaguayDoc — Иммиграция в Парагвай без обмана</title>
+
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Load Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600;700&family=JetBrains+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Skip Link for Accessibility -->
+    <a href="#main-content" class="skip-link">Перейти к основному содержанию</a>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero__grid">
+                <div class="hero__content">
+                    <h1 class="hero__title">Боитесь, что вас обманут?</h1>
+                    <p class="hero__subtitle lead">Давайте говорить честно. Мы покажем реальный процесс, реальных людей и реальные сроки — без сюрпризов и без бюрократических кошмаров.</p>
+                    <a href="#contact-form" class="button button--primary">Начать честный разговор</a>
+                </div>
+                <div class="hero__video">
+                    <div class="video-facade" data-video-id="placeholder">
+                        <div class="video-facade__placeholder">
+                            <div class="video-facade__play-button" aria-label="Воспроизвести видео">▶</div>
+                            <p class="video-facade__text">Видео-приветствие от основателя</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main id="main-content">
+
+        <!-- Timeline Section -->
+        <section class="timeline-section" id="timeline">
+            <div class="container">
+                <h2 class="timeline-section__title">Ваш путь к ПМЖ в Парагвае</h2>
+
+                <!-- Path Toggle -->
+                <div class="path-toggle">
+                    <button class="path-toggle__button path-toggle__button--active" data-path="standard">Стандартный путь</button>
+                    <button class="path-toggle__button" data-path="accelerated">Ускоренный путь</button>
+                </div>
+
+                <!-- Timeline -->
+                <div class="timeline" data-active-path="standard">
+                    <!-- Stage 1 -->
+                    <div class="timeline-stage" data-stage="1">
+                        <div class="timeline-stage__icon">📄</div>
+                        <div class="timeline-stage__content">
+                            <p class="timeline-stage__label">Подготовка документов</p>
+                            <p class="timeline-stage__time" data-standard="До приезда" data-accelerated="До приезда">До приезда</p>
+                        </div>
+                        <div class="timeline-stage__details">
+                            <ul>
+                                <li>Заграничный паспорт (срок действия 6+ месяцев)</li>
+                                <li>Свидетельство о рождении с апостилем</li>
+                                <li>Справка об отсутствии судимости с апостилем</li>
+                                <li>Свидетельство о браке/разводе (если применимо)</li>
+                            </ul>
+                            <p class="caption">Справку можно получить в Парагвае в посольстве РФ (около $40 + верификация $100)</p>
+                        </div>
+                    </div>
+
+                    <!-- Stage 2 -->
+                    <div class="timeline-stage" data-stage="2">
+                        <div class="timeline-stage__icon">✈️</div>
+                        <div class="timeline-stage__content">
+                            <p class="timeline-stage__label">Прилет и подача</p>
+                            <p class="timeline-stage__time" data-standard="День 1-3" data-accelerated="День 1">День 1-3</p>
+                        </div>
+                        <div class="timeline-stage__details">
+                            <ul>
+                                <li>Встреча в аэропорту (опционально, $300-600)</li>
+                                <li>Один визит в миграционное управление с юристом</li>
+                                <li>Подача документов на Admisión Temporaria</li>
+                                <li>Помощь с размещением и SIM-картами</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Stage 3 -->
+                    <div class="timeline-stage" data-stage="3">
+                        <div class="timeline-stage__icon">⏳</div>
+                        <div class="timeline-stage__content">
+                            <p class="timeline-stage__label">Ожидание AT</p>
+                            <p class="timeline-stage__time" data-standard="3-4 месяца" data-accelerated="1.5-2 месяца">3-4 месяца</p>
+                        </div>
+                        <div class="timeline-stage__details">
+                            <ul>
+                                <li>Можете покинуть Парагвай на время ожидания</li>
+                                <li>Мы отслеживаем статус и уведомляем вас</li>
+                                <li>После одобрения готовимся к следующему шагу</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Stage 4 -->
+                    <div class="timeline-stage" data-stage="4">
+                        <div class="timeline-stage__icon">🆔</div>
+                        <div class="timeline-stage__content">
+                            <p class="timeline-stage__label">Подача на Cédula</p>
+                            <p class="timeline-stage__time" data-standard="После AT" data-accelerated="Ускоренно">После получения AT</p>
+                        </div>
+                        <div class="timeline-stage__details">
+                            <ul>
+                                <li>Один визит в офис Identificación</li>
+                                <li>Можем забрать Cédula по доверенности</li>
+                                <li>Ваше присутствие не обязательно</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Stage 5 -->
+                    <div class="timeline-stage" data-stage="5">
+                        <div class="timeline-stage__icon">✓</div>
+                        <div class="timeline-stage__content">
+                            <p class="timeline-stage__label">Получение Cédula</p>
+                            <p class="timeline-stage__time" data-standard="2-3 месяца" data-accelerated="2-3 дня">2-3 месяца</p>
+                        </div>
+                        <div class="timeline-stage__details">
+                            <p><strong>Общий срок:</strong></p>
+                            <ul>
+                                <li class="timeline-total timeline-total--standard">Стандартный: 6-7 месяцев</li>
+                                <li class="timeline-total timeline-total--accelerated" style="display: none;">Ускоренный: 2.5-4 месяца</li>
+                            </ul>
+                            <p class="caption">Можем отправить Cédula через DHL в любую страну</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Tiers Section -->
+        <section class="tiers-section" id="pricing">
+            <div class="container">
+                <h2 class="tiers-section__title">Выберите ваш путь</h2>
+
+                <div class="tiers">
+                    <!-- Tier 1: Basic -->
+                    <div class="tier-card">
+                        <h3 class="tier-card__name">Базовый</h3>
+                        <p class="tier-card__price">$1,400</p>
+                        <p class="tier-card__timeline">6-7 месяцев</p>
+
+                        <ul class="tier-card__features">
+                            <li>Admisión Temporaria</li>
+                            <li>Подача на Cédula</li>
+                            <li>Один визит в миграцию с юристом</li>
+                            <li>Один визит в Identificación</li>
+                            <li>Можем забрать Cédula по доверенности</li>
+                        </ul>
+
+                        <p class="tier-card__target"><strong>Для кого:</strong> Семьи и удаленные специалисты с бюджетом $5-10k, которым важна прозрачность и не критична скорость.</p>
+
+                        <p class="tier-card__disclaimer caption">Занимает больше времени, но процесс честный и надежный.</p>
+
+                        <a href="#contact-form" class="button button--primary">Записаться на консультацию</a>
+                    </div>
+
+                    <!-- Tier 2: Accelerated (Recommended) -->
+                    <div class="tier-card tier-card--recommended">
+                        <h3 class="tier-card__name">Ускоренный</h3>
+                        <p class="tier-card__price">$2,200</p>
+                        <p class="tier-card__timeline">2.5-4 месяца</p>
+
+                        <ul class="tier-card__features">
+                            <li>Ускоренная Admisión Temporaria (1.5-2 месяца)</li>
+                            <li>Ускоренная Cédula (1.5-2 месяца)</li>
+                            <li>Забираем Cédula по доверенности</li>
+                            <li>Меньше визитов, больше удобства</li>
+                        </ul>
+
+                        <p class="tier-card__target"><strong>Для кого:</strong> Предприниматели и семьи, которым важна скорость и готовы заплатить за комфорт.</p>
+
+                        <p class="tier-card__disclaimer caption">Лучший баланс цены и скорости для большинства клиентов.</p>
+
+                        <a href="#contact-form" class="button button--primary">Записаться на консультацию</a>
+                    </div>
+
+                    <!-- Tier 3: SUACE -->
+                    <div class="tier-card">
+                        <h3 class="tier-card__name">SUACE (ПМЖ)</h3>
+                        <p class="tier-card__price">$6,000 - $9,500</p>
+                        <p class="tier-card__timeline">Индивидуально</p>
+
+                        <ul class="tier-card__features">
+                            <li>Открытие компании (опционально)</li>
+                            <li>Бухгалтерия 6 месяцев</li>
+                            <li>Разработка бизнес-проекта</li>
+                            <li>Сопровождение в SUACE</li>
+                            <li>Найм 5 работников</li>
+                            <li>Ускоренная Cédula (2-3 дня)</li>
+                        </ul>
+
+                        <p class="tier-card__target"><strong>Для кого:</strong> Инвесторы и предприниматели с капиталом $70k+, которым нужен ПМЖ и бизнес-инфраструктура.</p>
+
+                        <p class="tier-card__disclaimer caption">Требует инвестиций от $70,000 в бизнес-проект.</p>
+
+                        <a href="#contact-form" class="button button--primary">Записаться на консультацию</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Proof Section -->
+        <section class="testimonials-section" id="testimonials">
+            <div class="container">
+                <h2 class="testimonials-section__title">Реальные истории наших клиентов</h2>
+
+                <!-- Testimonial 1 -->
+                <div class="testimonial">
+                    <div class="testimonial__photo-placeholder">ИМ</div>
+                    <div class="testimonial__content">
+                        <p class="testimonial__quote">Мы переехали с двумя детьми и боялись, что застрянем в документах на годы. ParaguayDoc провели нас за руку через весь процесс. Через 6 месяцев у нас была Cédula.</p>
+                        <p class="testimonial__author">Иван и Мария И.</p>
+                        <p class="testimonial__meta caption">Семья из Москвы, Базовый тариф, 2025</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="testimonial">
+                    <div class="testimonial__photo-placeholder">ДК</div>
+                    <div class="testimonial__content">
+                        <p class="testimonial__quote">Мне нужен был ПМЖ для бизнеса. Ускоренный тариф сработал идеально — через 3 месяца я уже мог вести дела легально.</p>
+                        <p class="testimonial__author">Дмитрий К.</p>
+                        <p class="testimonial__meta caption">Предприниматель из СПб, Ускоренный тариф, 2025</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section class="team-section" id="about">
+            <div class="container">
+                <h2 class="team-section__title">Кто мы такие</h2>
+
+                <div class="team-section__grid">
+                    <div class="team-section__content">
+                        <p class="body">Мы — не безликое агентство. Мы живем в Энкарнасьон, работаем здесь каждый день и лично провели более 100 семей через процесс иммиграции.</p>
+
+                        <div class="team-section__credentials">
+                            <p><strong>Наши гарантии:</strong></p>
+                            <ul>
+                                <li>Зарегистрированная юридическая фирма</li>
+                                <li>Более 100 успешных кейсов</li>
+                                <li>Прозрачные цены без скрытых платежей</li>
+                            </ul>
+                        </div>
+
+                        <p class="team-section__telegram">
+                            <strong>Посмотрите наши реальные отзывы и обновления:</strong><br>
+                            <a href="https://t.me/Paraguaydoc" target="_blank" rel="noopener noreferrer" class="team-section__telegram-link">@Paraguaydoc в Telegram</a>
+                        </p>
+                    </div>
+
+                    <div class="team-section__visual">
+                        <div class="team-section__placeholder">
+                            <p>📍 Энкарнасьон, Парагвай</p>
+                            <p class="caption">Фото офиса будет добавлено</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA / Form Section -->
+        <section class="form-section" id="contact-form">
+            <div class="container">
+                <h2 class="form-section__title">Начните ваш путь</h2>
+                <p class="form-section__subtitle">Запишитесь на бесплатную 30-минутную консультацию в Telegram. Мы разберем вашу ситуацию и предложим оптимальный маршрут.</p>
+
+                <div class="form-container">
+                    <form class="contact-form" action="https://formsubmit.co/your-email@example.com" method="POST" id="contact-form-element">
+                        <!-- FormSubmit Configuration -->
+                        <input type="hidden" name="_subject" value="Новая заявка с сайта ParaguayDoc">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="box">
+
+                        <!-- Name Field -->
+                        <div class="form-group">
+                            <label for="name" class="form-label">Ваше имя</label>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="Иван Иванов" required>
+                            <span class="form-error" id="name-error" role="alert"></span>
+                        </div>
+
+                        <!-- Telegram Field -->
+                        <div class="form-group">
+                            <label for="telegram" class="form-label">Ваш Telegram (основной способ связи)</label>
+                            <input type="text" id="telegram" name="telegram" class="form-input" placeholder="@username" required>
+                            <span class="form-error" id="telegram-error" role="alert"></span>
+                        </div>
+
+                        <!-- Email Field -->
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email (опционально)</label>
+                            <input type="email" id="email" name="email" class="form-input" placeholder="ivan@example.com">
+                            <span class="form-error" id="email-error" role="alert"></span>
+                        </div>
+
+                        <!-- Service Interest -->
+                        <div class="form-group">
+                            <label class="form-label">Какая услуга вас интересует?</label>
+                            <div class="form-radio-group">
+                                <label class="form-radio">
+                                    <input type="radio" name="service" value="Базовый ВНЖ ($1,400)" required>
+                                    <span class="form-radio__label">Базовый ВНЖ ($1,400)</span>
+                                </label>
+                                <label class="form-radio">
+                                    <input type="radio" name="service" value="Ускоренный ВНЖ ($2,200)" required>
+                                    <span class="form-radio__label">Ускоренный ВНЖ ($2,200)</span>
+                                </label>
+                                <label class="form-radio">
+                                    <input type="radio" name="service" value="SUACE ПМЖ ($6,000-$9,500)" required>
+                                    <span class="form-radio__label">SUACE ПМЖ ($6,000-$9,500)</span>
+                                </label>
+                                <label class="form-radio">
+                                    <input type="radio" name="service" value="Пока не знаю" required>
+                                    <span class="form-radio__label">Пока не знаю</span>
+                                </label>
+                            </div>
+                            <span class="form-error" id="service-error" role="alert"></span>
+                        </div>
+
+                        <!-- Message Field -->
+                        <div class="form-group">
+                            <label for="message" class="form-label">Расскажите немного о вашей ситуации (опционально)</label>
+                            <textarea id="message" name="message" class="form-input" rows="4" placeholder="Например: Семья из трех человек, планируем переезд в марте..."></textarea>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="button button--primary form-submit">Отправить заявку</button>
+                    </form>
+
+                    <!-- Success Message (Hidden by default) -->
+                    <div class="form-success" id="form-success" style="display: none;">
+                        <div class="form-success__icon">✓</div>
+                        <h3>Заявка отправлена!</h3>
+                        <p>Мы свяжемся с вами в Telegram в течение 24 часов. Проверьте ваш Telegram на наличие сообщений.</p>
+                    </div>
+
+                    <!-- Error Message (Hidden by default) -->
+                    <div class="form-error-message" id="form-error-message" style="display: none;">
+                        <p>⚠ Что-то пошло не так. Пожалуйста, попробуйте еще раз или напишите напрямую в <a href="https://t.me/Paraguaydoc" target="_blank">@Paraguaydoc</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <!-- Column 1: About -->
+                <div class="footer__column">
+                    <h4 class="footer__heading">ParaguayDoc</h4>
+                    <p class="footer__text">Прозрачная иммиграционная помощь для русскоязычных семей и предпринимателей.</p>
+                </div>
+
+                <!-- Column 2: Contact -->
+                <div class="footer__column">
+                    <h4 class="footer__heading">Контакты</h4>
+                    <ul class="footer__list">
+                        <li>Telegram: <a href="https://t.me/Paraguaydoc" target="_blank" rel="noopener noreferrer">@Paraguaydoc</a></li>
+                        <li>Местоположение: Энкарнасьон, Парагвай</li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Legal -->
+                <div class="footer__column">
+                    <h4 class="footer__heading">Юридическая информация</h4>
+                    <ul class="footer__list">
+                        <li><a href="#privacy">Политика конфиденциальности</a></li>
+                        <li><a href="#terms">Условия использования</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2026 ParaguayDoc. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js" defer></script>
+</body>
+</html>
